@@ -7,7 +7,7 @@ def isPrime(num):
         break
     elif x==2:
         return 1
-    for i in range(2:round(x/2)+1):
+    for i in range(2,round(x/2)+1):
         if x%i==0:
             break
         elif x % i !=0:
