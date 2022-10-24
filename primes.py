@@ -4,12 +4,12 @@
 def isPrime(num):
     x = int(num)
     if x ==1:
-        break
+        return 0
     elif x==2:
         return 1
     for i in range(2,round(x/2)+1):
         if x%i==0:
-            break
+            return 0
         elif x % i !=0:
             if i == round(x/2):
                 return 1
